@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'ps';
+    src: url('./fonts/zrnic.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+html {
+    scroll-behavior: smooth;
+}
+header{
+    height: 80px;
+    background-color: rgb(146, 194, 252);
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    color: #fff;
+}
+.logo {
+    float: left;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px black;
+    font-family:ps ;
+}
+.logo span {
+    color: rgb(0, 162, 255);
+}
+.barra {
+    float: right;
+}
+ul {
+    list-style:none;
+}
+ul li{
+    display: inline-block;
+    text-transform: capitalize;
+}
+ul a {
+    color: #fff;
+    text-decoration: none;
+}
+ul a:hover { 
+    color: #333
+}
+
+main {
+    height: calc(100vh - 80px);
+    width: 100%;
+    background-color: #333;
+    background-image: url(/img/ResidentEvil4.png);
+    background-size: cover;
+    background-position: left;
+}
+.call {
+    width: 65%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 3px solid rgb(0, 145, 255);
+    float: right;
+    margin: 30px;
+    padding: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.callNoti {
+    width: 98%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 3px solid rgb(0, 145, 255);
+    float: right;
+    margin: 30px;
+    padding: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    
+}
+.call p {
+    margin-bottom: 30px;
+}
+.call a {
+    background-color:rgb(146, 194, 252);
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border: 3px solid rgb(146, 194, 252);
+}
+.call a:hover { 
+    background-color: #333;
+}
+h2 {
+    text-align: center;
+    background-color: rgb(146, 194, 252);
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+section.cont {
+    height: 700px;
+    width: 100%;
+    background-color: #333;
+}
+.cont1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: row nowrap; 
+    justify-content: space-evenly;
+    
+    align-items: center;
+    align-content: space-evenly;
+
+}
+.cont2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: row nowrap; 
+    justify-content: space-evenly;
+    
+    align-items: center;
+    align-content: space-evenly;
+
+}
+.cont3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: row nowrap; 
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-evenly;
+
+}
+.cont4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-evenly;
+
+}
+.item {
+    height: 351px;
+    width: 900px;
+    background-color: rgb(31, 31, 31);
+    border: 2px solid #fff;
+    text-align: center;
+    line-height: 18px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    justify-content: center;
+}
+.item ul{
+    list-style-type: circle;
+}
+footer {
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+footer p {
+    margin-bottom: 20px;
+}
+.redes a{
+    color: rgb(124, 184, 248);
+    font-size: 50px;
+    letter-spacing: 30px;
+}
+
+.subir {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(146, 194, 252);
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+}
+.btn-primary {
+    background-color: #0BB3D9 !important; 
+    height: 40px;
+    width: 80px;
+}
+
+.btn-primary:hover {
+    background-color: #025373 !important;
+    transition:0.5s;
+}
+form.form-group{
+    width: 120;
+    height: 120;
+}
+.formulario{
+    height: 351px;
+    width: 900px;
+    border: 2px solid #fff;
+    background-color: rgb(0, 162, 255) ;
+    text-align: center;
+    font-size: 17px;
+}
